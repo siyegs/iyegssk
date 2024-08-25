@@ -1,0 +1,276 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    border: 5px solid honeydew;
+}
+
+body{
+    margin: 0;
+}
+
+/* first */
+.first{
+    background: linear-gradient(to right, rgb(216, 98, 98), rgb(221, 142, 142), rgb(105, 105, 146), purple);
+    padding: 3.2em 0 2em 0;
+}
+
+.first .img{
+    width: 40%;
+    margin:0 auto;
+}
+
+.first img{
+    width: 60%;
+}
+
+.buttons button{
+    padding: .4em 5em;
+    border-radius: .40rem;
+}
+
+.buttons i{
+    font-size: 1.3rem;
+}
+
+.ocha i{
+    font-size: 1.18rem;
+}
+
+.black{
+    background-color: rgb(231, 231, 212);
+    border: none;
+}
+
+.ocha{
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+}
+
+/* second */
+.second{
+    padding: 4.2em 0;
+}
+.second-sub{
+    display: flex;
+    width: 60%;
+    max-width: 615px;
+    margin: 0 auto;
+}
+
+.easy{
+    margin: 0 1.4rem 0 1.8rem;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+/* third */
+.third{
+    background-color: rgb(242,241,239);
+    padding-top: .7em;
+}
+
+.sniff,
+.ok{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.sniff p{
+    letter-spacing: .06rem;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.ok img{
+    width: 25%;
+}
+
+.third span {
+    font-size: .7rem;
+}
+
+.sponsors{
+    width: 100%;
+    padding: 2.5em 0;
+}
+
+.sponsors img{
+    width: 15%;
+}
+
+.sponsors p{
+    font-size: 2rem;
+}
+
+
+/* fourth */
+.fourth{
+    background-color: rgb(226, 224, 225);
+    padding: .05em 0 1.3em 0;
+}
+
+.plan{
+    line-height: .6;
+    padding-bottom: .6em;
+}
+
+.fourth .plan h2{
+    font-weight: normal;
+    letter-spacing: .1em;
+    word-spacing: .3rem;
+}
+
+.fourth .plan p{
+    font-size: smaller;
+}
+
+.free-box,
+.gold-box,
+.platinum-box{
+    padding: 0 1.3em .7em 1.3em;
+    border-radius: .4rem;
+}
+
+.free,
+.gold,
+.platinum{
+    background-color: rgb(216, 213, 213);
+    padding: .5em 0;
+    margin-bottom: .6rem;
+    font-weight: bolder;
+    border-bottom-right-radius: .4rem;
+    border-bottom-left-radius: .4rem;
+}
+
+.uno,
+.deux,
+.trois{
+    line-height: .4;
+}
+
+.sss{
+    margin: 1.3rem 0 1.65rem 0;
+}
+
+.uno span,
+.deux span,
+.trois span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.free-box button{
+    padding: .66em 1.5em;
+    border: 1.5px solid rgb(120,157,210);
+    border-radius: .46rem;
+}
+
+.free-box button a{
+    text-decoration: none;
+    color: rgb(120,157,210);
+}
+
+.ranking{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding: .5em 0 1em 0;
+}
+
+.free{
+    background-color: rgb(129, 218, 129);
+}
+
+.gold{
+    background-color: goldenrod;
+}
+
+.platinum{
+    background-color: black;
+    color: white;
+}
+
+.free-box{
+    border: 2.8px solid rgb(184, 180, 180);
+}
+
+.gold-box{
+    border: 1.9px solid goldenrod;
+}
+
+.platinum-box{
+    border: 1.5px solid black;
+}
+
+.gold-box button,
+.platinum-box button{
+    padding: .7em 2.7em;
+    border-radius: .46rem;
+    border: none;
+    color: white;
+    background: rgb(112,113,117);
+}
+
+.platinum-box{
+    padding: 0 1.3em .7em 1.3em;
+}
+
+/* FIFTH */
+.fifth{
+    background: linear-gradient(to right, rgb(216, 98, 98), rgb(221, 142, 142), rgb(105, 105, 146), purple);
+    padding: .4em 0 .1em 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.fifth ul{
+    list-style-type: none;
+}
+
+.fifth section i{
+    font-size: .8rem;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:694px){
+    .second-sub{
+        display: block;
+    }
+
+    .elite{
+        margin-left: 1.7rem;
+    }
+
+    .ranking{
+        display: block;
+    }
+
+    .free-box,
+    .gold-box{
+        margin-bottom: 1rem;
+    }
+
+    .second-sub{
+        width: 100%;
+    }
+}
+
+@media(max-width:454px){
+    .plan{
+        line-height: 1;
+    }
+
+    #ddd{
+        display: none;
+    }
+}

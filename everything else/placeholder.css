@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,h3,h5{
+    color: #00000096;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em 0;
+    border-bottom: 2.5px solid hsla(0, 0%, 50%, 0.555);
+    margin-bottom: 1rem;
+}
+
+header p:first-child{
+    color: hsla(271, 76%, 53%, 0.884);
+    font-weight: bolder;
+}
+
+header p:nth-child(2){
+    font-size: 0.7rem;
+}
+
+/* MAIN */
+
+main{
+    padding: 1em 0;
+}
+
+.main-sub{
+    text-align: center;
+    line-height: 2.7;
+}
+
+.main-sub h1{
+    font-size: 5.4vw;
+    line-height: 1;
+}
+
+main span{
+    color: hsla(271, 76%, 53%, 0.966);
+}
+
+.main-sub p{
+    font-size: 1.2vw;
+}
+
+.main-sub button{
+    padding: 0.8em 1em;
+    border-radius: 0.4rem;
+    border: none;
+    color: hsla(271, 76%, 53%, 0.966);
+}
+
+#first-button{
+    background-color: #8a2ce2f6;
+    color: white;
+}
+
+.main-mini{
+    padding-bottom: 1em;
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    width: 70%;
+    min-width: 100px;
+    max-width: 700px;
+    margin: 3rem auto 0 auto;
+    background: #8a2ce2f6;
+}
+
+.main-mini-header{
+    display: flex;
+    width: 88%;
+    margin: 1.7rem auto;
+    padding-top: 0.8em;
+    column-gap: 1.5rem;
+}
+
+.main-mini-header p{
+    cursor: pointer;
+    flex-grow: 1;
+    font-size: clamp(9.5px, 2vw, 20px);
+    text-align: center;
+}
+
+.main-mini-header p:hover,
+.main-mini-header p:focus{
+    color: hsla(0, 0%, 0%, 0.438);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.main-mini-footer{
+    padding-bottom: 0.5em;
+}
+
+.main-mini-footer #base{
+    border: 2px solid #8a2ce2f6;
+    width: 90%;
+    margin: 2rem auto 0 auto;
+    padding: 0.5em 0;
+    font-weight: lighter;
+    background-color: hsla(0, 0%, 100%, 0.945);
+    color: hsla(0, 0%, 0%, 0.644);
+    font-size: 0.8rem;
+    padding-left: 2em;
+    border-radius: 0.5rem;
+}
+
+.main-mini-footer #base p{
+    font-size: 1.8vw;
+    display: inline-block;
+}
+
+.main-mini-footer #base button{
+    padding: 0.3em 1.3em;
+    background-color: #8a2ce2f6;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+article{
+    background-color: #8a2ce2f6;
+    color: white;
+    width: 90%;
+    margin: 3.5rem auto 0 auto;
+    padding: 1em 0;
+    text-align: center;
+    line-height: 2;
+}
+
+article p{
+    line-height: 1;
+    font-size: 1.3vw;
+}
+
+article button{
+    font-weight: 600;
+    color: white;
+    background-color: hsla(0, 0%, 50%, 0.445);
+    padding: 2em 1em;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 0.55rem;
+}
+
+article button:hover,
+article button:focus{
+    box-shadow: 0 3rem 7rem hsla(0, 0%, 0%, 0.514);
+    background-color: hsla(0, 0%, 50%, 0.603);
+}
+
+.final{
+    background-color: hsla(0, 43%, 99%, 0.979);
+    font-weight: 600;
+    color: hsla(0, 0%, 0%, 0.753);
+    padding: 1em;
+}
+
+.end{
+    background-color: hsla(0, 0%, 0%, 0.699);
+    color: white;
+}
+
+@media(max-width:706px){
+    main .main-sub button{
+        padding: 0.7em 0.6em;
+    }
+}
